@@ -33,7 +33,7 @@ function populatePage() {
         <p class="hero-description">${config.personal.description}</p>
         <div class="cta-buttons">
             <a href="#contact" class="btn btn-primary">Let's Connect →</a>
-            <a href="${config.personal.linkedin}" target="_blank" class="btn btn-secondary">View LinkedIn</a>
+            <a href="${config.personal.linkedin}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">View LinkedIn</a>
         </div>
     `;
     
@@ -127,7 +127,7 @@ function populatePage() {
             <h3>Email</h3>
             <p>${config.personal.email}</p>
         </a>
-        <a href="${config.personal.linkedin}" target="_blank" class="contact-card">
+        <a href="${config.personal.linkedin}" target="_blank" rel="noopener noreferrer" class="contact-card">
             <div class="contact-icon">💼</div>
             <h3>LinkedIn</h3>
             <p>Connect professionally</p>
